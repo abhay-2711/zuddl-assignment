@@ -1,7 +1,7 @@
 "use client"
 
 import Image from 'next/image'
-import { MagnifyingGlassIcon, UserCircleIcon } from '@heroicons/react/20/solid'
+import { MagnifyingGlassIcon } from '@heroicons/react/20/solid'
 import React from 'react'
 import Avatar from 'react-avatar'
 
@@ -16,7 +16,7 @@ const Header = () => {
                 top-0
                 left-0
                 w-full
-                h-96
+                h-full
                 bg-gradient-to-br
                 from-pink-400
                 to-[#0055d1]

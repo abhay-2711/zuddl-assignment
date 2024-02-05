@@ -3,20 +3,50 @@ type TypedColumn = "todo" | "inprogress" | "done";
 export const boardDetails: { id: string; title: string; status: TypedColumn; image: string }[] = [
     {
         id: "1",
-        title: "take the dogs out for a walk",
+        title: "Search Component",
         status: "todo",
         image: "",
     },
     {
         id: "2",
-        title: "Board Component",
-        status: "inprogress",
+        title: "Answers in Readme file",
+        status: "todo",
         image: "",
     },
     {
         id: "3",
-        title: "Assignment task",
+        title: "Go for a walk",
+        status: "todo",
+        image: "",
+    },
+    {
+        id: "4",
+        title: "Todo Component",
         status: "inprogress",
+        image: "",
+    },
+    {
+        id: "5",
+        title: "Reading 10 pages from the book",
+        status: "inprogress",
+        image: "",
+    },
+    {
+        id: "6",
+        title: "Board Component",
+        status: "done",
+        image: "",
+    },
+    {
+        id: "7",
+        title: "Column Component",
+        status: "done",
+        image: "",
+    },
+    {
+        id: "8",
+        title: "Assignment task",
+        status: "done",
         image: "",
     }
 ];

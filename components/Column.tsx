@@ -30,7 +30,7 @@ const Column = ({ id, todos, index } : Props) => {
 
 
     const handleClick = () => {
-        openModal();
+        openModal(); 
         setNewTaskType(id);
     }
   return (

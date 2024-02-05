@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { MagnifyingGlassIcon } from '@heroicons/react/20/solid'
 import React from 'react'
 import Avatar from 'react-avatar'
+const zuddlLogo = '/assets/zuddl__logo.png'
 
 const Header = () => {
   return (
@@ -27,14 +28,15 @@ const Header = () => {
                 -z-50
             '
         />
-
+      <div className='w-16'>
       <Image
-        src="https://links.papareact.com/c2cdd5"
-        alt='Trello'
+        src={zuddlLogo}
+        alt='Zuddl'
         width={300}
-        height={100}
+        height={150}
         className='w-44 md:w-56 pb-10 md:pb-0 object-contain'
       />
+      </div>
 
       <div className='flex items-center space-x-5 flex-1 justify-end w-full'>
         <form className='flex items-center space-x-5 bg-white rounded-md p-2 shadow-md flex-1 md:flex-initial'>
